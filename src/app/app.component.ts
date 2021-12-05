@@ -8,13 +8,9 @@ import { TransferenciaService } from './services/transferencia.service';
 })
 export class AppComponent {
   title = 'bytebank';
-  transferencias: any[] = [];
 
   constructor(private service: TransferenciaService) {
 
   }
 
-  transferir($event: any) {
-    this.service.adicionarTransferencia($event);
-  }
 }
