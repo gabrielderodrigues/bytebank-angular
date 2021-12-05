@@ -1,7 +1,8 @@
 .titulo {
   text-align: center;
-  font-size: 24px;
+  font-size: 1.8rem;
   margin-bottom: 16px;
+  color: var(--primary);
 }
 
 .tabela {
@@ -25,6 +26,9 @@
     border-radius: 4px;
 }
 
+.tabela__linha:last-child .tabela__conteudo{
+  border-bottom: none;
+}
 
 .tabela__conteudo {
     padding: 10px;
